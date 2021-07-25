@@ -1,6 +1,9 @@
 node_modules
-Bootstrap
+.vscode
+Bootstrap   
 font-awesome-4.7.0
 fonts
 package.json
 package-lock.json
+
+
