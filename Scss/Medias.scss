@@ -17,7 +17,7 @@
                 overflow-wrap: normal;
             }
         }
-        @media(max-width:6890px) {
+        @media(max-width:689px) {
             .title {
                 font: 1rem;
             }
@@ -108,7 +108,7 @@
         }
         @media (max-width:934px){
             .container__nav {
-                display: none;
+                display: none ;
             }
             
         }
@@ -119,8 +119,31 @@
             }
             
             
-        }
-        
+        }   
+      
+    @media (max-width:934px){
+        .container__sn{
+        display: none !important;;
+    }
+    
+}
+@media (max-width:934px){
+    .container__main {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+@media (max-width:934px){
+    .container__main-text {
+        width: 90%;
+        color: white;
+        margin: 13rem auto;
+    }
+}
+ 
 
      
 
@@ -133,7 +156,7 @@
             }
     
         @media(max-width:890px){
-            .container__nav .nav , .container__nav{
+            .container__nav .nav, .container__nav{
                 display: none;
                 width: 0%
                 ;
@@ -193,32 +216,19 @@
                 margin: 0 auto;
             }
         } 
-
-
+        @media (max-width:737px) {
+        .container__main-text {
+            width: 85%;
+        }
+    }
+        
             }
-            @media (max-width:494px) {
-                .container__sn{
-                        width: 100%;
-                        background-color: orange;
-                        height: auto;
-                        display: flex;
-                
-                        border-color: black;
-                        padding: 1.6rem;
-                        border-width: 4px;
-                        border-style: solid;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        align-items: flex-end;
-                        flex-wrap: wrap;
-                        align-content: flex-end;
-                    }
-                }
+       
+    
                 @media (max-width:494px) {
                     #home{
                         height: 800px;
                     
                 }
                     }
-                }
-                
+        }
