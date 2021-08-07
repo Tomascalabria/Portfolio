@@ -1,5 +1,6 @@
 node_modules
-.vscode
+/.vscode
+settings.json
 Bootstrap   
 font-awesome-4.7.0
 fonts
