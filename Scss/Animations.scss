@@ -9,7 +9,10 @@
     white-space: initial;
     margin: 0 auto;
     letter-spacing: 15px;
-    animation: typing 5s steps(29, end), blink-caret 0.12s step-start infinite; }
+    animation: typing 5s steps(29, end), blink-caret 0.12s step-start infinite; 
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-delay: 0s;
+}
   
   @keyframes typing {
     from {

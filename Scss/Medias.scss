@@ -1,9 +1,8 @@
 
-/* MEDIA QUERIES */ 
 
         @media(max-width:520px) {
             .title {
-                width: 70%;
+                width: 90%;
                 height: auto;
                 justify-content: center;
                 margin: 0 auto;
@@ -17,6 +16,22 @@
                 overflow-wrap: normal;
             }
         }
+        @media (min-width:521px) and (max-width:900px) {
+            .title{
+            
+            width: 40%;
+            height: auto;
+            justify-content: center;
+            margin: 0 auto;
+            border-style: solid;
+            border-color: white;
+            margin-top: -0.2rem;
+            font-family:var(--fuente1);
+            font-weight: bolder  ;
+          
+        
+            }     
+        }
         @media(max-width:689px) {
             .title {
                 font: 1rem;
@@ -24,7 +39,7 @@
             }
              @media (max-width:520px) {
                 .line1 {
-                   width: 85% ;
+                       width: 95%;
                 
                 }
                  }
@@ -41,7 +56,13 @@
                         height: 290px;
         
                     }
+
                 }   
+                @media (min-width:943px) {
+                    .line1{ 
+                        width: 65%;
+                    }
+            }
                 @media  (max-width:890px) {  
                     .line2{
                         width: 30.1%;
@@ -51,44 +72,26 @@
                     }
                 @media (max-width:520px) {
                     .line2 {
-                       width: 1% ;
-                    
+                        border-color: white;
+                        border-left: transparent;
+                        border-top: transparent;
+                        border-bottom: transparent;
+                        border-style: solid;
+                        background-color: black;
+                        width: 6.1%;
+                        height: 450px;
                     }
                      }
-       
+                     @media (min-width:943px) {
+                        .line2{ 
+                            width: 35.19%;
+                            height: 80%;
+                            margin-top: -1.9px;
+                    }
+                }
   
-        @media (min-width:521px) and (max-width:900px) {
-            .title{
-            
-            width: 40%;
-            height: auto;
-            justify-content: center;
-            margin: 0 auto;
-            border-style: solid;
-            border-color: white;
-            margin-top: -0.2rem;
-            font-family:var(--fuente1);
-            font-weight: bolder  ;
-          
         
-            }
-           
-                  
-            
-        }
 
-        @media(max-width:520px){
-            .line2{
-                border-color: white;
-                border-left: transparent;
-                border-top: transparent;
-                border-bottom: transparent;
-                border-style: solid;
-                background-color: black;
-                width: 15.1%;
-                height: 450px;
-            }
-        }
         @media(max-width:840px){
             .container__main{
                 width: 99%;
