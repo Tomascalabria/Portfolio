@@ -140,6 +140,12 @@
         margin: 0 auto;
     }
 }
+@media (max-width:520px){
+    main#about {
+        height: 800px;
+    } 
+    
+}
 @media (max-width:934px){
     .container__main-text {
         width: 90%;
@@ -235,4 +241,9 @@
                     
                 }
                     }
+        }
+         @media (max-width:520px) {
+           section#educacion {
+                height: 800px;   
+         }
         }

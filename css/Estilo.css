@@ -536,6 +536,10 @@ section#educacion {
     flex-wrap: wrap;
     margin: 0 auto; } }
 
+@media (max-width: 520px) {
+  main#about {
+    height: 800px; } }
+
 @media (max-width: 934px) {
   .container__main-text {
     width: 90%;
@@ -597,4 +601,8 @@ section#educacion {
 
 @media (min-width: 890px) and (max-width: 494px) {
   #home {
+    height: 800px; } }
+
+@media (max-width: 520px) {
+  section#educacion {
     height: 800px; } }
