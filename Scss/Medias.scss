@@ -247,3 +247,32 @@
                 height: 800px;   
          }
         }
+                
+        @media screen and (max-width: 800px){
+            .container{
+                margin-top: -35rem;
+                width: 100%;
+                padding: 0;
+            }
+            .accordion {
+                flex-direction: column;
+                height: 700px;
+                width: 100%;
+                box-shadow: none;
+            }
+            .box {
+                box-shadow: none;
+            
+            }
+            .box:hover {
+                flex: 1;
+            }
+        }
+                
+        @media(min-width:999px){
+            .container{
+                margin-top: -35rem;
+                width: 100%;
+                padding: 0;
+            }
+        }
